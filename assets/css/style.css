@@ -58,15 +58,62 @@ header{
     margin: 0 auto;
     padding: 10px;
 
+    border: 1px solid red;
+
 }
 /* END: header */
 
 /* START: main */
-.delete-box{
-    background-color: red;
-    height: 200px;
-    width: 200px;
+
+main{
+    padding: 20px;
 }
+
+.div-main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: auto;
+    width: 75%;
+    max-width: var(--max-width-val);
+    border: 1px solid black;
+
+    align-items: center;
+
+
+}
+
+.row-cont-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 75%;
+    margin: 0 auto;
+
+    border: 1px solid red;
+}
+
+.col-cont-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 10px;
+
+    border: 1px solid red;
+
+}
+
+.img-main{
+    max-width: calc(var(--max-width-val)/3 - 65px);
+    margin: 10px;
+}
+
+
 /* END: main */
 
 /* START: footer */
