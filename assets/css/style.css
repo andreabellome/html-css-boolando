@@ -47,7 +47,7 @@ header{
     max-height: 15px;
 }
 
-.cont-header-flex{
+.cont-flex{
 
     display: flex;
     flex-direction: row;
@@ -60,3 +60,59 @@ header{
 
 }
 /* END: header */
+
+/* START: main */
+.delete-box{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+/* END: main */
+
+/* START: footer */
+footer{
+    background-color: var(--black-color);
+    padding: 20px;
+}
+
+.cont-footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boolando-bottom{
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--white-color);
+}
+
+.container-trovaci-su-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trovaci-su{
+    font-weight: bold;
+    color: var(--white-color);
+}
+
+.ul-bottom{
+    margin-top: 10px;
+}
+
+.ul-bottom li{
+    margin-left: 0px;
+}
+
+.ul-bottom li a{
+    font-weight: normal;
+}
+
+.img-small-buttons-bottom{
+    max-height: 20px;
+}
+/* END: footer */
