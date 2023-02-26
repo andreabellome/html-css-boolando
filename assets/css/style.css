@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.debug{
+    border: 2px dashed black;
+}
+
 :root{
     --max-width-val: 1500px;
     --black-color: #23272A;
@@ -69,7 +73,43 @@ main{
     padding: 20px;
 }
 
-.div-main-flex{
+.text-line-through{
+    text-decoration: line-through;
+} 
+
+.text-red{
+    color: red;
+}
+
+#card-info h3{
+    text-transform: uppercase;
+}
+
+.container{
+    margin: 0 auto;
+    width: 75%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: calc(100%/3 - 1%);
+    margin-bottom: 2%;
+}
+
+.card img{
+    display: block;
+    width: 100%;
+}
+
+/* .div-main-flex{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -111,7 +151,7 @@ main{
 .img-main{
     max-width: calc(var(--max-width-val)/3 - 65px);
     margin: 10px;
-}
+} */
 
 
 /* END: main */
