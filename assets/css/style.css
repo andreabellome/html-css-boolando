@@ -62,8 +62,6 @@ header{
     margin: 0 auto;
     padding: 10px;
 
-    border: 1px solid red;
-
 }
 /* END: header */
 
@@ -100,13 +98,51 @@ main{
 }
 
 .card{
-    flex-basis: calc(100%/3 - 1%);
+    flex-basis: calc( (100%/3) - 1%);
     margin-bottom: 2%;
 }
 
 .card img{
     display: block;
     width: 100%;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.ab-bottom-40{
+    bottom: 40px;
+}
+
+.ab-top-40{
+    top: 40px;
+}
+
+.ab-right-0{
+    right: 0px;
+}
+
+.lables .lable{
+    padding: 8px 12px;
+    color: var(--white-color);
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.heart{
+    padding: 10px;
+    background-color: var(--white-color);
 }
 
 /* .div-main-flex{
