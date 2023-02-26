@@ -51,16 +51,31 @@
     <!-- START: main -->
     <main>
 
-        <section id="cards">
-            <div class="container flex wrap class-max-width debug">
-                <div class="card debug">
-                    <img src="./assets/img/1.webp" alt="img1">
+        <section>
+
+            <div class="container flex wrap class-max-width">
+                <div class="card">
+
+                    <!-- image with relative/absolute -->
+                    <div class="relative">
+                        <img src="./assets/img/1.webp" alt="img1">
+                        <div class="lables absolute ab-bottom-40">
+                            <span class="lable bg-red">-50%</span>
+                            <span class="lable bg-green">Sostenibilità</span>
+                        </div>
+                        <div class="absolute ab-top-40 ab-right-0 heart debug">
+                            <img src="./assets/img/heart-solid.svg" alt="heart-solid">
+                        </div>
+                    </div>
+                    
+                    <!-- card information -->
                     <div id="card-info">
                         <span>Levi's</span>
                         <h3>Titolo del prodotto</h3>
                         <span class="text-red">14.99 &euro;</span>
                         <span class="text-line-through">29.99 &euro;</span>
                     </div>
+
                 </div>
 
                 <div class="card debug">
@@ -114,6 +129,7 @@
                 </div>
 
             </div>
+
         </section>
 
 
