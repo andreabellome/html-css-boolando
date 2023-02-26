@@ -69,6 +69,7 @@ header{
 
 main{
     padding: 20px;
+    background-color: var(--white-color);
 }
 
 .text-line-through{
@@ -102,9 +103,24 @@ main{
     margin-bottom: 2%;
 }
 
-.card img{
+.img-reset{
     display: block;
+}
+
+.card img{
     width: 100%;
+}
+
+.img-b{
+    display: none;
+}
+
+.card-top:hover .img-a{
+    display: none;
+}
+
+.card-top:hover .img-b{
+    display: block;
 }
 
 .relative{
